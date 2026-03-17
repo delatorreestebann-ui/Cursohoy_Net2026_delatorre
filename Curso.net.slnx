@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Libreria.API/Libreria.API.csproj" />
   <Project Path="Libreria.modelos/Libreria.modelos.csproj" />
 </Solution>

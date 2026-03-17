@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Libreria.modelos
 {
-    internal class Cliente
+    public class Cliente
     {
         [Key] public int Id { get; set; }
 
@@ -15,5 +15,7 @@ namespace Libreria.modelos
 
         public string Nombre_Usiario { get; set; }
         public string contra_Cliente { get; set; }
+
+        List<Prestamo> Prestamos { get; set; } = new List<Prestamo>();
     }
 }
